@@ -1,0 +1,12 @@
+.sucesso {
+    background: green;
+}
+.info {
+    background: blue;
+}
+.alerta {
+    background: yellow;
+}
+.erro {
+    background: red;
+}
