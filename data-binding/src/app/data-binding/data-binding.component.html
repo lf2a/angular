@@ -67,4 +67,10 @@
             <p>Voce digitou o nome: {{ nome }}</p>
         </div>
     </article>
+
+    <article>
+        <h3>Input/Output properties</h3>
+        <app-curso [nome]="nomeDoCurso"></app-curso>
+        <contador [valor]="valorInicial" (mudouValor)="onMudouValor($event)"></contador>
+    </article>
 </section>
